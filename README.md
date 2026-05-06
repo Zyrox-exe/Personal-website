@@ -1,6 +1,6 @@
 ## 1. Project Overview & Live Link
 A personal portfolio website showcasing my web development skills.
-Visit my website [Here](https://zyrox-exe.github.io/Personal-website/)
+Visit my website [Here](https://guesswhatsadiq.is-a.dev/)
 
 ## 2. Tech Stack
 
