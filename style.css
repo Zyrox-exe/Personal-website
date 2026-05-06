@@ -1,39 +1,88 @@
 @font-face {
-  font-family: 'Hoover-Regular';
-  src: url('fonts/Hoover_Complete/Fonts/WEB/fonts/Hoover-Regular.woff2') format('woff2'),
-       url('fonts/Hoover_Complete/Fonts/WEB/fonts/Hoover-Regular.woff') format('woff'),
-       url('fonts/Hoover_Complete/Fonts/WEB/fonts/Hoover-Regular.ttf') format('truetype');
+  font-family: "Hoover-Regular";
+  src:
+    url("fonts/Hoover_Complete/Fonts/WEB/fonts/Hoover-Regular.woff2")
+      format("woff2"),
+    url("fonts/Hoover_Complete/Fonts/WEB/fonts/Hoover-Regular.woff")
+      format("woff"),
+    url("fonts/Hoover_Complete/Fonts/WEB/fonts/Hoover-Regular.ttf")
+      format("truetype");
   font-weight: 400;
   font-display: swap;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Hoover-Bold';
-  src: url('fonts/Hoover_Complete/Fonts/WEB/fonts/Hoover-Bold.woff2') format('woff2'),
-       url('fonts/Hoover_Complete/Fonts/WEB/fonts/Hoover-Bold.woff') format('woff'),
-       url('fonts/Hoover_Complete/Fonts/WEB/fonts/Hoover-Bold.ttf') format('truetype');
+  font-family: "Hoover-Bold";
+  src:
+    url("fonts/Hoover_Complete/Fonts/WEB/fonts/Hoover-Bold.woff2")
+      format("woff2"),
+    url("fonts/Hoover_Complete/Fonts/WEB/fonts/Hoover-Bold.woff") format("woff"),
+    url("fonts/Hoover_Complete/Fonts/WEB/fonts/Hoover-Bold.ttf")
+      format("truetype");
   font-weight: 700;
   font-display: swap;
   font-style: normal;
 }
 
-
-body{background-color: black;
-    background: linear-gradient(rgb(35, 35, 36),black);}
+body {
+  background-color: black;
+  background: linear-gradient(rgb(35, 35, 36), black);
+}
 /* background-attachment: fixed;} */
 
-#heading{color:lime; font-family: "Press Start 2P";}
+#heading {
+  color: lime;
+  font-family: "Press Start 2P";
+  text-align: center;
+}
 
+#p1 {
+  text-align: center;
+}
 
-/* #p1 {color:brown;} */
+h3 {
+  color: coral;
+  font-family: "Hoover-Regular";
+  text-align: center;
+}
 
-h3 {color:coral; font-family: "Hoover-Regular";}
+h2 {
+  color: cyan;
+  font-family: "Hoover-Regular";
+  text-align: center;
+}
 
-h2 {color:cyan; font-family: "Hoover-Regular";}
+.normal {
+  color: white;
+  font-family: Jetbrains Mono;
+  text-align: center;
+}
 
-p {color:white;}
+#links {
+  color: aquamarine;
+  font-family: "Hoover-Bold";
+  text-align: center;
+}
 
+#pic {
+  padding: 0.7%;
+  border: greenyellow;
+  border-style: dashed;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icons{
+  text-align: center;
+}
 
-#links{color:aquamarine; font-family: "Hoover-Bold";}
+#handles {
+  text-align: center;
+}
 
+.container{
+  display: flex;
+  justify-content: space-around;
+}
