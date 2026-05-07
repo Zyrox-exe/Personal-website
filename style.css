@@ -47,11 +47,7 @@ h3 {
   text-align: center;
 }
 
-h2 {
-  color: cyan;
-  font-family: "Hoover-Regular";
-  text-align: center;
-}
+
 
 .normal {
   color: white;
@@ -59,8 +55,8 @@ h2 {
   text-align: center;
 }
 
-#links {
-  color: aquamarine;
+h2{
+  color:cyan;
   font-family: "Hoover-Bold";
   text-align: center;
 }
@@ -78,11 +74,42 @@ h2 {
   text-align: center;
 }
 
-#handles {
-  text-align: center;
+.handles{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(1);
+  transition: 0.3s ease;
+  flex-direction:column;
+}
+
+.logo:hover{
+  transform: scale(1.2);
 }
 
 .container{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills{
+  font-family: Jetbrains Mono;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 120px;
+  transform: scale(1);
+  transition: 0.3s ease;
+}
+
+.skills:hover {
+  transform: scale(1.2);
 }
