@@ -98,15 +98,46 @@ h2{
   align-items: center;
 }
 
-.card{
-  border: 2px dashed #444;
-  border-radius: 2px;
-  height:200px;
-  width: 1000px;
+.ProjectsContainer{
   display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
   justify-content: center;
-  align-items: center;
-  color: white;
+}
+.Project{
+  border-radius: 12px;
+  border: 1px solid transparent;
+  height:242px;
+  width: 320px;
+  overflow: hidden;
+  transition: ease-in-out 0.5s;
+  background-color:rgb(34, 34, 34);
+}
+
+.Project:hover{
+  height:310px;
+  border-color: #4a5568;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+.Project a{
+  text-decoration: none;
+}
+.Project img{
+  display: block;
+}
+.ProjectTitle{
+  color:beige;
+  font-family: "Hoover-Regular";
+  font-size: 1.3em;
+  padding: 8px;
+  margin: 0;
+  margin-top: 0;
+}
+.ProjectDesc{
+  color:rgb(125, 125, 125);
+  padding: 8px;
+  margin: 0;
 }
 
 .skills{
